@@ -5,10 +5,15 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import { Queue } from "./pages/Queue/Queue";
+import { Personaplex } from "./pages/Personaplex/Personaplex";
 
 const router = createBrowserRouter([
   {
     path: "/",
+    element: <Personaplex />,
+  },
+  {
+    path: "/queue",
     element: <Queue />,
   },
 ]);

@@ -54,9 +54,17 @@ const Homepage = ({
   return (
     <div className="text-center h-screen w-screen p-4 flex flex-col items-center pt-8">
       <div className="mb-6">
-        <h1 className="text-4xl text-black">PersonaPlex</h1>
+        <h1 className="text-4xl text-black">AI Augmented Journaling</h1>
         <p className="text-sm text-gray-600 mt-2">
-          Full duplex conversational AI with text and voice control.
+          Real-time conversational AI journaling assistant. Framework by{" "}
+          <a
+            href="https://research.nvidia.com/labs/adlr/personaplex/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline"
+          >
+            Personaplex (NVIDIA)
+          </a>
         </p>
       </div>
 
